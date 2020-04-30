@@ -41,7 +41,7 @@ public class Dado {
                 }
             }
             
-        }while(lanzar==0);
+        }while(lanzar==0 || lanzar==1);
     }
     
 }
