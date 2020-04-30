@@ -11,7 +11,8 @@ public class Dado {
         Random aleatorio=new Random();
         Scanner teclado=new Scanner(System.in);
         int dado, lanzar, caras;
-        System.out.println("¿Cuantas caras tiene el dado?");
+        System.out.println("--Bienvenido a mi simulador de un dado--");
+        System.out.println("\n¿Cuantas caras tiene el dado?");
         caras = teclado.nextInt();
         
         do{
